@@ -1,0 +1,152 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.canvas {
+  width: 1000px;
+  height: 1000px;
+}
+
+.UsernameCountry {
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.timerNums {
+  padding: 15px;
+  font-size: x-large;
+  font-weight: bold;
+  color: crimson;
+}
+
+.rules {
+  padding: 10px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  border-radius: 8px;
+}
+
+.Errors {
+  padding-top: 15px;
+  padding-bottom: 0;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+.TimeData {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.dropDownMenu {
+  text-align: center;
+}
+
+.noData {
+  font-size: small;
+  color: slategray;
+  font-style: italic;
+}
+
+.submitDiv {
+  color: cornflowerblue;
+  padding-top: 15px;
+}
+
+.startButton {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+.startButton:hover {
+  background-color: #4095c6;
+}
+
+.resetButton {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  background-color: rgb(218, 77, 77);
+  text-align: center;
+  transition: all 0.2s;
+}
+.resetButton:hover {
+  background-color: rgb(175, 45, 45);
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* .floatContainer {
+ padding-right: 100px;
+padding-left: 100px;
+} */
+
+/* .floatChild {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+} */
+
+.recentTimes {
+  display: inline-block;
+}
+
+.timeGraph {
+  display: inline-block;
+  position: center;
+}
+
+.needInspo {
+  font-style: italic;
+}
+
+.restCallStyle {
+  padding-bottom: 50px;
+}
+
+.quoteButton {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  background-color: rgb(106, 184, 106);
+  text-align: center;
+  transition: all 0.2s;
+}
+.quoteButton:hover {
+  background-color: rgb(57, 133, 57);
+}
+
+#canvas1 {
+  cursor: crosshair !important;
+}
